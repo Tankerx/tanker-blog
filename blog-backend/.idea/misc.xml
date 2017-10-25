@@ -1,9 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <project version="4">
-  <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
-    <exe-path />
-    <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
-  </component>
+    <component name="JsFlowSettings">
+        <service-enabled>false</service-enabled>
+        <exe-path/>
+        <annotation-enable>false</annotation-enable>
+        <other-services-enabled>false</other-services-enabled>
+    </component>
+    <component name="SvnBranchConfigurationManager">
+        <option name="myConfigurationMap">
+            <map>
+                <entry key="$PROJECT_DIR$/../../../../ws-workspaces/agrivo/tunnel-check-iview">
+                    <value>
+                        <SvnBranchConfiguration>
+                            <option name="branchUrls">
+                                <list>
+                                    <option value="svn://112.74.188.74/tiis2/frontend/branches"/>
+                                </list>
+                            </option>
+                            <option name="trunkUrl" value="svn://112.74.188.74/tiis2/frontend/trunk"/>
+                        </SvnBranchConfiguration>
+                    </value>
+                </entry>
+            </map>
+        </option>
+        <option name="mySupportsUserInfoFilter" value="true"/>
+    </component>
+    <component name="JavaScriptSettings">
+        <option name="languageLevel" value="ES6"/>
+    </component>
 </project>
