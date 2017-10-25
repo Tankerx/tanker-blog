@@ -1,0 +1,270 @@
+{
+  "keys": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+  "middleware": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+      "port": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+      "user": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+      "password": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+      "database": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js"
+    },
+    "app": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+    "agent": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+    "default": {
+      "database": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "ignoreJSON": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "value": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/tanker/Documents/Tanker/blog/blog-backend/config/config.default.js",
+    "protocolWhiteList": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+    "hsts": {
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-onerror/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-session/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-multipart/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-static/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-view/config/config.default.js"
+  },
+  "cors": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-cors/config/config.default.js",
+  "env": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "name": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "version": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "description": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "private": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "egg-security": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "stop": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "dev": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "debug": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "test": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "cov": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "lint": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "ci": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "autod": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "url": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "license": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "strict": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "depth": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "env": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "level": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "port": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg/config/config.default.js"
+  }
+}

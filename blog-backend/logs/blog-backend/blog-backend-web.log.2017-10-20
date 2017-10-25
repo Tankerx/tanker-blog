@@ -1,0 +1,72 @@
+2017-10-20 09:36:43,478 WARN 34428 [-/192.168.1.104/-/134ms POST /userUpdate] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.update (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:32:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'id', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 34428
+hostname: tankerdeiMac.local
+
+2017-10-20 15:14:00,944 WARN 5679 [-/192.168.1.104/-/16ms GET /getOneArticle?articleId=ca44f9c0-b53d-11e7-b63d-a1e4b5a02e21] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ArticleController.getOne (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/article.js:26:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'articleId', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 5679
+hostname: tankerdeiMac.local
+
+2017-10-20 15:14:24,450 WARN 6618 [-/192.168.1.104/-/21ms GET /getOneArticle?articleId=ca44f9c0-b53d-11e7-b63d-a1e4b5a02e21] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ArticleController.getOne (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/article.js:26:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'articleId', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 6618
+hostname: tankerdeiMac.local
+
+2017-10-20 15:14:32,896 WARN 6698 [-/192.168.1.104/-/9ms GET /getOneArticle?articleId=ca44f9c0-b53d-11e7-b63d-a1e4b5a02e21] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ArticleController.getOne (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/article.js:26:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'articleId', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 6698
+hostname: tankerdeiMac.local
+

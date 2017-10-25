@@ -1,0 +1,608 @@
+2017-10-19 23:59:59,936 INFO 50118 [egg-logrotator] app logger reload: got log-reload message
+2017-10-20 09:30:38,809 INFO 32843 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 09:30:39,080 INFO 32843 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 09:30:39,080 INFO 32843 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 09:30:39,425 INFO 32843 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 09:30:40,794 INFO 32843 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 09:30:40,823 INFO 32843 [egg-security] use csrf middleware
+2017-10-20 09:30:40,828 INFO 32843 [egg-security] use methodnoallow middleware
+2017-10-20 09:30:40,829 INFO 32843 [egg-security] use noopen middleware
+2017-10-20 09:30:40,836 INFO 32843 [egg-security] use nosniff middleware
+2017-10-20 09:30:40,843 INFO 32843 [egg-security] use xssProtection middleware
+2017-10-20 09:30:40,844 INFO 32843 [egg-security] use xframe middleware
+2017-10-20 09:30:40,849 INFO 32843 [egg-security] use dta middleware
+2017-10-20 09:30:40,849 INFO 32843 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 09:30:41,038 INFO 32843 [egg-watcher:app] watcher start success
+2017-10-20 09:30:41,101 INFO 32843 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 09:30:41 GMT+0800 (CST)
+2017-10-20 09:33:13,858 INFO 33543 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 09:33:14,015 INFO 33543 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 09:33:14,016 INFO 33543 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 09:33:14,061 INFO 33543 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 09:33:14,809 INFO 33543 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 09:33:14,817 INFO 33543 [egg-security] use csrf middleware
+2017-10-20 09:33:14,821 INFO 33543 [egg-security] use methodnoallow middleware
+2017-10-20 09:33:14,824 INFO 33543 [egg-security] use noopen middleware
+2017-10-20 09:33:14,830 INFO 33543 [egg-security] use nosniff middleware
+2017-10-20 09:33:14,836 INFO 33543 [egg-security] use xssProtection middleware
+2017-10-20 09:33:14,837 INFO 33543 [egg-security] use xframe middleware
+2017-10-20 09:33:14,842 INFO 33543 [egg-security] use dta middleware
+2017-10-20 09:33:14,842 INFO 33543 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 09:33:14,971 INFO 33543 [egg-watcher:app] watcher start success
+2017-10-20 09:33:15,049 INFO 33543 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 09:33:15 GMT+0800 (CST)
+2017-10-20 09:34:16,644 INFO 33820 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 09:34:16,771 INFO 33820 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 09:34:16,771 INFO 33820 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 09:34:16,826 INFO 33820 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 09:34:17,450 INFO 33820 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 09:34:17,469 INFO 33820 [egg-security] use csrf middleware
+2017-10-20 09:34:17,507 INFO 33820 [egg-security] use methodnoallow middleware
+2017-10-20 09:34:17,509 INFO 33820 [egg-security] use noopen middleware
+2017-10-20 09:34:17,516 INFO 33820 [egg-security] use nosniff middleware
+2017-10-20 09:34:17,546 INFO 33820 [egg-security] use xssProtection middleware
+2017-10-20 09:34:17,566 INFO 33820 [egg-security] use xframe middleware
+2017-10-20 09:34:17,585 INFO 33820 [egg-security] use dta middleware
+2017-10-20 09:34:17,585 INFO 33820 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 09:34:17,795 INFO 33820 [egg-watcher:app] watcher start success
+2017-10-20 09:34:17,813 INFO 33820 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 09:34:17 GMT+0800 (CST)
+2017-10-20 09:34:52,609 INFO 33971 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 09:34:52,767 INFO 33971 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 09:34:52,767 INFO 33971 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 09:34:52,813 INFO 33971 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 09:34:53,571 INFO 33971 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 09:34:53,602 INFO 33971 [egg-security] use csrf middleware
+2017-10-20 09:34:53,605 INFO 33971 [egg-security] use methodnoallow middleware
+2017-10-20 09:34:53,608 INFO 33971 [egg-security] use noopen middleware
+2017-10-20 09:34:53,614 INFO 33971 [egg-security] use nosniff middleware
+2017-10-20 09:34:53,621 INFO 33971 [egg-security] use xssProtection middleware
+2017-10-20 09:34:53,622 INFO 33971 [egg-security] use xframe middleware
+2017-10-20 09:34:53,627 INFO 33971 [egg-security] use dta middleware
+2017-10-20 09:34:53,627 INFO 33971 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 09:34:53,759 INFO 33971 [egg-watcher:app] watcher start success
+2017-10-20 09:34:53,761 INFO 33971 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 09:34:53 GMT+0800 (CST)
+2017-10-20 09:35:16,297 INFO 34090 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 09:35:16,466 INFO 34090 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 09:35:16,466 INFO 34090 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 09:35:16,513 INFO 34090 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 09:35:17,181 INFO 34090 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 09:35:17,189 INFO 34090 [egg-security] use csrf middleware
+2017-10-20 09:35:17,193 INFO 34090 [egg-security] use methodnoallow middleware
+2017-10-20 09:35:17,195 INFO 34090 [egg-security] use noopen middleware
+2017-10-20 09:35:17,202 INFO 34090 [egg-security] use nosniff middleware
+2017-10-20 09:35:17,209 INFO 34090 [egg-security] use xssProtection middleware
+2017-10-20 09:35:17,209 INFO 34090 [egg-security] use xframe middleware
+2017-10-20 09:35:17,210 INFO 34090 [egg-security] use dta middleware
+2017-10-20 09:35:17,210 INFO 34090 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 09:35:17,300 INFO 34090 [egg-watcher:app] watcher start success
+2017-10-20 09:35:17,302 INFO 34090 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 09:35:17 GMT+0800 (CST)
+2017-10-20 09:36:34,673 INFO 34428 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 09:36:34,807 INFO 34428 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 09:36:34,807 INFO 34428 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 09:36:34,853 INFO 34428 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 09:36:35,468 INFO 34428 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 09:36:35,486 INFO 34428 [egg-security] use csrf middleware
+2017-10-20 09:36:35,489 INFO 34428 [egg-security] use methodnoallow middleware
+2017-10-20 09:36:35,492 INFO 34428 [egg-security] use noopen middleware
+2017-10-20 09:36:35,498 INFO 34428 [egg-security] use nosniff middleware
+2017-10-20 09:36:35,506 INFO 34428 [egg-security] use xssProtection middleware
+2017-10-20 09:36:35,507 INFO 34428 [egg-security] use xframe middleware
+2017-10-20 09:36:35,513 INFO 34428 [egg-security] use dta middleware
+2017-10-20 09:36:35,513 INFO 34428 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 09:36:35,615 INFO 34428 [egg-watcher:app] watcher start success
+2017-10-20 09:36:35,657 INFO 34428 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 09:36:35 GMT+0800 (CST)
+2017-10-20 09:37:04,328 INFO 34561 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 09:37:04,452 INFO 34561 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 09:37:04,452 INFO 34561 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 09:37:04,507 INFO 34561 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 09:37:05,065 INFO 34561 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 09:37:05,073 INFO 34561 [egg-security] use csrf middleware
+2017-10-20 09:37:05,077 INFO 34561 [egg-security] use methodnoallow middleware
+2017-10-20 09:37:05,079 INFO 34561 [egg-security] use noopen middleware
+2017-10-20 09:37:05,086 INFO 34561 [egg-security] use nosniff middleware
+2017-10-20 09:37:05,093 INFO 34561 [egg-security] use xssProtection middleware
+2017-10-20 09:37:05,094 INFO 34561 [egg-security] use xframe middleware
+2017-10-20 09:37:05,100 INFO 34561 [egg-security] use dta middleware
+2017-10-20 09:37:05,100 INFO 34561 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 09:37:05,179 INFO 34561 [egg-watcher:app] watcher start success
+2017-10-20 09:37:05,238 INFO 34561 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 09:37:05 GMT+0800 (CST)
+2017-10-20 10:08:58,777 INFO 42971 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:08:58,948 INFO 42971 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:08:58,949 INFO 42971 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:08:59,003 INFO 42971 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:08:59,758 INFO 42971 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:08:59,773 INFO 42971 [egg-security] use csrf middleware
+2017-10-20 10:08:59,786 INFO 42971 [egg-security] use methodnoallow middleware
+2017-10-20 10:08:59,787 INFO 42971 [egg-security] use noopen middleware
+2017-10-20 10:08:59,793 INFO 42971 [egg-security] use nosniff middleware
+2017-10-20 10:08:59,801 INFO 42971 [egg-security] use xssProtection middleware
+2017-10-20 10:08:59,802 INFO 42971 [egg-security] use xframe middleware
+2017-10-20 10:08:59,806 INFO 42971 [egg-security] use dta middleware
+2017-10-20 10:08:59,806 INFO 42971 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:08:59,928 INFO 42971 [egg-watcher:app] watcher start success
+2017-10-20 10:08:59,991 INFO 42971 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:08:59 GMT+0800 (CST)
+2017-10-20 10:10:39,183 INFO 43397 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:10:39,413 INFO 43397 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:10:39,413 INFO 43397 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:10:39,492 INFO 43397 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:10:40,423 INFO 43397 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:10:40,453 INFO 43397 [egg-security] use csrf middleware
+2017-10-20 10:10:40,457 INFO 43397 [egg-security] use methodnoallow middleware
+2017-10-20 10:10:40,459 INFO 43397 [egg-security] use noopen middleware
+2017-10-20 10:10:40,466 INFO 43397 [egg-security] use nosniff middleware
+2017-10-20 10:10:40,473 INFO 43397 [egg-security] use xssProtection middleware
+2017-10-20 10:10:40,473 INFO 43397 [egg-security] use xframe middleware
+2017-10-20 10:10:40,479 INFO 43397 [egg-security] use dta middleware
+2017-10-20 10:10:40,479 INFO 43397 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:10:40,574 INFO 43397 [egg-watcher:app] watcher start success
+2017-10-20 10:10:40,576 INFO 43397 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:10:40 GMT+0800 (CST)
+2017-10-20 10:10:42,330 INFO 43450 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:10:42,375 INFO 43450 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:10:42,375 INFO 43450 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:10:42,383 INFO 43450 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:10:42,473 INFO 43450 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:10:42,475 INFO 43450 [egg-security] use csrf middleware
+2017-10-20 10:10:42,476 INFO 43450 [egg-security] use methodnoallow middleware
+2017-10-20 10:10:42,476 INFO 43450 [egg-security] use noopen middleware
+2017-10-20 10:10:42,476 INFO 43450 [egg-security] use nosniff middleware
+2017-10-20 10:10:42,477 INFO 43450 [egg-security] use xssProtection middleware
+2017-10-20 10:10:42,477 INFO 43450 [egg-security] use xframe middleware
+2017-10-20 10:10:42,477 INFO 43450 [egg-security] use dta middleware
+2017-10-20 10:10:42,477 INFO 43450 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:10:42,538 INFO 43450 [egg-watcher:app] watcher start success
+2017-10-20 10:10:42,601 INFO 43450 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:10:42 GMT+0800 (CST)
+2017-10-20 10:11:07,684 INFO 43552 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:11:07,796 INFO 43552 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:11:07,796 INFO 43552 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:11:07,841 INFO 43552 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:11:08,389 INFO 43552 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:11:08,396 INFO 43552 [egg-security] use csrf middleware
+2017-10-20 10:11:08,400 INFO 43552 [egg-security] use methodnoallow middleware
+2017-10-20 10:11:08,402 INFO 43552 [egg-security] use noopen middleware
+2017-10-20 10:11:08,409 INFO 43552 [egg-security] use nosniff middleware
+2017-10-20 10:11:08,416 INFO 43552 [egg-security] use xssProtection middleware
+2017-10-20 10:11:08,417 INFO 43552 [egg-security] use xframe middleware
+2017-10-20 10:11:08,422 INFO 43552 [egg-security] use dta middleware
+2017-10-20 10:11:08,423 INFO 43552 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:11:08,520 INFO 43552 [egg-watcher:app] watcher start success
+2017-10-20 10:11:08,523 INFO 43552 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:11:08 GMT+0800 (CST)
+2017-10-20 10:11:34,803 INFO 43684 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:11:34,912 INFO 43684 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:11:34,912 INFO 43684 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:11:34,962 INFO 43684 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:11:35,501 INFO 43684 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:11:35,528 INFO 43684 [egg-security] use csrf middleware
+2017-10-20 10:11:35,532 INFO 43684 [egg-security] use methodnoallow middleware
+2017-10-20 10:11:35,534 INFO 43684 [egg-security] use noopen middleware
+2017-10-20 10:11:35,541 INFO 43684 [egg-security] use nosniff middleware
+2017-10-20 10:11:35,548 INFO 43684 [egg-security] use xssProtection middleware
+2017-10-20 10:11:35,549 INFO 43684 [egg-security] use xframe middleware
+2017-10-20 10:11:35,554 INFO 43684 [egg-security] use dta middleware
+2017-10-20 10:11:35,554 INFO 43684 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:11:35,649 INFO 43684 [egg-watcher:app] watcher start success
+2017-10-20 10:11:35,651 INFO 43684 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:11:35 GMT+0800 (CST)
+2017-10-20 10:12:02,963 INFO 43819 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:12:03,009 INFO 43819 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:12:03,009 INFO 43819 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:12:03,016 INFO 43819 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:12:03,096 INFO 43819 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:12:03,098 INFO 43819 [egg-security] use csrf middleware
+2017-10-20 10:12:03,098 INFO 43819 [egg-security] use methodnoallow middleware
+2017-10-20 10:12:03,098 INFO 43819 [egg-security] use noopen middleware
+2017-10-20 10:12:03,099 INFO 43819 [egg-security] use nosniff middleware
+2017-10-20 10:12:03,099 INFO 43819 [egg-security] use xssProtection middleware
+2017-10-20 10:12:03,099 INFO 43819 [egg-security] use xframe middleware
+2017-10-20 10:12:03,099 INFO 43819 [egg-security] use dta middleware
+2017-10-20 10:12:03,099 INFO 43819 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:12:03,141 INFO 43819 [egg-watcher:app] watcher start success
+2017-10-20 10:12:03,204 INFO 43819 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:12:03 GMT+0800 (CST)
+2017-10-20 10:13:13,990 INFO 44129 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:13:14,107 INFO 44129 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:13:14,107 INFO 44129 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:13:14,157 INFO 44129 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:13:14,828 INFO 44129 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:13:14,835 INFO 44129 [egg-security] use csrf middleware
+2017-10-20 10:13:14,839 INFO 44129 [egg-security] use methodnoallow middleware
+2017-10-20 10:13:14,841 INFO 44129 [egg-security] use noopen middleware
+2017-10-20 10:13:14,848 INFO 44129 [egg-security] use nosniff middleware
+2017-10-20 10:13:14,855 INFO 44129 [egg-security] use xssProtection middleware
+2017-10-20 10:13:14,856 INFO 44129 [egg-security] use xframe middleware
+2017-10-20 10:13:14,861 INFO 44129 [egg-security] use dta middleware
+2017-10-20 10:13:14,861 INFO 44129 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:13:15,009 INFO 44129 [egg-watcher:app] watcher start success
+2017-10-20 10:13:15,011 INFO 44129 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:13:15 GMT+0800 (CST)
+2017-10-20 10:14:20,062 INFO 44417 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:14:20,249 INFO 44417 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:14:20,249 INFO 44417 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:14:20,316 INFO 44417 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:14:21,168 INFO 44417 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:14:21,177 INFO 44417 [egg-security] use csrf middleware
+2017-10-20 10:14:21,180 INFO 44417 [egg-security] use methodnoallow middleware
+2017-10-20 10:14:21,183 INFO 44417 [egg-security] use noopen middleware
+2017-10-20 10:14:21,190 INFO 44417 [egg-security] use nosniff middleware
+2017-10-20 10:14:21,197 INFO 44417 [egg-security] use xssProtection middleware
+2017-10-20 10:14:21,197 INFO 44417 [egg-security] use xframe middleware
+2017-10-20 10:14:21,203 INFO 44417 [egg-security] use dta middleware
+2017-10-20 10:14:21,203 INFO 44417 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:14:21,316 INFO 44417 [egg-watcher:app] watcher start success
+2017-10-20 10:14:21,363 INFO 44417 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:14:21 GMT+0800 (CST)
+2017-10-20 10:14:42,417 INFO 44506 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:14:42,508 INFO 44506 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:14:42,508 INFO 44506 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:14:42,554 INFO 44506 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:14:43,068 INFO 44506 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:14:43,076 INFO 44506 [egg-security] use csrf middleware
+2017-10-20 10:14:43,080 INFO 44506 [egg-security] use methodnoallow middleware
+2017-10-20 10:14:43,082 INFO 44506 [egg-security] use noopen middleware
+2017-10-20 10:14:43,089 INFO 44506 [egg-security] use nosniff middleware
+2017-10-20 10:14:43,096 INFO 44506 [egg-security] use xssProtection middleware
+2017-10-20 10:14:43,097 INFO 44506 [egg-security] use xframe middleware
+2017-10-20 10:14:43,102 INFO 44506 [egg-security] use dta middleware
+2017-10-20 10:14:43,102 INFO 44506 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:14:43,190 INFO 44506 [egg-watcher:app] watcher start success
+2017-10-20 10:14:43,264 INFO 44506 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:14:43 GMT+0800 (CST)
+2017-10-20 10:16:35,001 INFO 45013 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:16:35,127 INFO 45013 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:16:35,127 INFO 45013 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:16:35,173 INFO 45013 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:16:35,763 INFO 45013 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:16:35,771 INFO 45013 [egg-security] use csrf middleware
+2017-10-20 10:16:35,775 INFO 45013 [egg-security] use methodnoallow middleware
+2017-10-20 10:16:35,777 INFO 45013 [egg-security] use noopen middleware
+2017-10-20 10:16:35,784 INFO 45013 [egg-security] use nosniff middleware
+2017-10-20 10:16:35,791 INFO 45013 [egg-security] use xssProtection middleware
+2017-10-20 10:16:35,792 INFO 45013 [egg-security] use xframe middleware
+2017-10-20 10:16:35,797 INFO 45013 [egg-security] use dta middleware
+2017-10-20 10:16:35,797 INFO 45013 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:16:35,893 INFO 45013 [egg-watcher:app] watcher start success
+2017-10-20 10:16:35,902 INFO 45013 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:16:35 GMT+0800 (CST)
+2017-10-20 10:19:00,061 INFO 45634 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:19:00,225 INFO 45634 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:19:00,226 INFO 45634 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:19:00,277 INFO 45634 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:19:01,136 INFO 45634 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:19:01,154 INFO 45634 [egg-security] use csrf middleware
+2017-10-20 10:19:01,160 INFO 45634 [egg-security] use methodnoallow middleware
+2017-10-20 10:19:01,161 INFO 45634 [egg-security] use noopen middleware
+2017-10-20 10:19:01,166 INFO 45634 [egg-security] use nosniff middleware
+2017-10-20 10:19:01,174 INFO 45634 [egg-security] use xssProtection middleware
+2017-10-20 10:19:01,175 INFO 45634 [egg-security] use xframe middleware
+2017-10-20 10:19:01,179 INFO 45634 [egg-security] use dta middleware
+2017-10-20 10:19:01,179 INFO 45634 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:19:01,312 INFO 45634 [egg-watcher:app] watcher start success
+2017-10-20 10:19:01,337 INFO 45634 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:19:01 GMT+0800 (CST)
+2017-10-20 10:19:45,874 INFO 45834 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:19:46,064 INFO 45834 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:19:46,064 INFO 45834 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:19:46,119 INFO 45834 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:19:46,788 INFO 45834 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:19:46,796 INFO 45834 [egg-security] use csrf middleware
+2017-10-20 10:19:46,800 INFO 45834 [egg-security] use methodnoallow middleware
+2017-10-20 10:19:46,802 INFO 45834 [egg-security] use noopen middleware
+2017-10-20 10:19:46,810 INFO 45834 [egg-security] use nosniff middleware
+2017-10-20 10:19:46,816 INFO 45834 [egg-security] use xssProtection middleware
+2017-10-20 10:19:46,817 INFO 45834 [egg-security] use xframe middleware
+2017-10-20 10:19:46,822 INFO 45834 [egg-security] use dta middleware
+2017-10-20 10:19:46,822 INFO 45834 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:19:46,902 INFO 45834 [egg-watcher:app] watcher start success
+2017-10-20 10:19:46,909 INFO 45834 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:19:46 GMT+0800 (CST)
+2017-10-20 10:30:02,556 INFO 48541 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:30:02,743 INFO 48541 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:30:02,743 INFO 48541 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:30:02,826 INFO 48541 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:30:03,664 INFO 48541 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:30:03,714 INFO 48541 [egg-security] use csrf middleware
+2017-10-20 10:30:03,718 INFO 48541 [egg-security] use methodnoallow middleware
+2017-10-20 10:30:03,720 INFO 48541 [egg-security] use noopen middleware
+2017-10-20 10:30:03,727 INFO 48541 [egg-security] use nosniff middleware
+2017-10-20 10:30:03,734 INFO 48541 [egg-security] use xssProtection middleware
+2017-10-20 10:30:03,734 INFO 48541 [egg-security] use xframe middleware
+2017-10-20 10:30:03,740 INFO 48541 [egg-security] use dta middleware
+2017-10-20 10:30:03,740 INFO 48541 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:30:03,875 INFO 48541 [egg-watcher:app] watcher start success
+2017-10-20 10:30:03,932 INFO 48541 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:30:03 GMT+0800 (CST)
+2017-10-20 10:31:26,423 INFO 48918 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:31:26,532 INFO 48918 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:31:26,532 INFO 48918 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:31:26,590 INFO 48918 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:31:27,113 INFO 48918 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:31:27,122 INFO 48918 [egg-security] use csrf middleware
+2017-10-20 10:31:27,126 INFO 48918 [egg-security] use methodnoallow middleware
+2017-10-20 10:31:27,128 INFO 48918 [egg-security] use noopen middleware
+2017-10-20 10:31:27,135 INFO 48918 [egg-security] use nosniff middleware
+2017-10-20 10:31:27,141 INFO 48918 [egg-security] use xssProtection middleware
+2017-10-20 10:31:27,142 INFO 48918 [egg-security] use xframe middleware
+2017-10-20 10:31:27,149 INFO 48918 [egg-security] use dta middleware
+2017-10-20 10:31:27,149 INFO 48918 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:31:27,290 INFO 48918 [egg-watcher:app] watcher start success
+2017-10-20 10:31:27,302 INFO 48918 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:31:27 GMT+0800 (CST)
+2017-10-20 10:36:25,250 INFO 50257 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:36:25,401 INFO 50257 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:36:25,401 INFO 50257 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:36:25,441 INFO 50257 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:36:26,178 INFO 50257 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:36:26,187 INFO 50257 [egg-security] use csrf middleware
+2017-10-20 10:36:26,191 INFO 50257 [egg-security] use methodnoallow middleware
+2017-10-20 10:36:26,193 INFO 50257 [egg-security] use noopen middleware
+2017-10-20 10:36:26,199 INFO 50257 [egg-security] use nosniff middleware
+2017-10-20 10:36:26,206 INFO 50257 [egg-security] use xssProtection middleware
+2017-10-20 10:36:26,208 INFO 50257 [egg-security] use xframe middleware
+2017-10-20 10:36:26,212 INFO 50257 [egg-security] use dta middleware
+2017-10-20 10:36:26,212 INFO 50257 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:36:26,383 INFO 50257 [egg-watcher:app] watcher start success
+2017-10-20 10:36:26,455 INFO 50257 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:36:26 GMT+0800 (CST)
+2017-10-20 10:38:34,444 INFO 50810 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:38:34,676 INFO 50810 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:38:34,677 INFO 50810 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:38:34,738 INFO 50810 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:38:35,429 INFO 50810 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:38:35,459 INFO 50810 [egg-security] use csrf middleware
+2017-10-20 10:38:35,463 INFO 50810 [egg-security] use methodnoallow middleware
+2017-10-20 10:38:35,473 INFO 50810 [egg-security] use noopen middleware
+2017-10-20 10:38:35,473 INFO 50810 [egg-security] use nosniff middleware
+2017-10-20 10:38:35,479 INFO 50810 [egg-security] use xssProtection middleware
+2017-10-20 10:38:35,487 INFO 50810 [egg-security] use xframe middleware
+2017-10-20 10:38:35,496 INFO 50810 [egg-security] use dta middleware
+2017-10-20 10:38:35,496 INFO 50810 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:38:35,601 INFO 50810 [egg-watcher:app] watcher start success
+2017-10-20 10:38:35,639 INFO 50810 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:38:35 GMT+0800 (CST)
+2017-10-20 10:54:04,504 INFO 54876 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 10:54:04,719 INFO 54876 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 10:54:04,719 INFO 54876 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 10:54:04,764 INFO 54876 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 10:54:05,699 INFO 54876 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 10:54:05,707 INFO 54876 [egg-security] use csrf middleware
+2017-10-20 10:54:05,711 INFO 54876 [egg-security] use methodnoallow middleware
+2017-10-20 10:54:05,713 INFO 54876 [egg-security] use noopen middleware
+2017-10-20 10:54:05,720 INFO 54876 [egg-security] use nosniff middleware
+2017-10-20 10:54:05,727 INFO 54876 [egg-security] use xssProtection middleware
+2017-10-20 10:54:05,728 INFO 54876 [egg-security] use xframe middleware
+2017-10-20 10:54:05,733 INFO 54876 [egg-security] use dta middleware
+2017-10-20 10:54:05,733 INFO 54876 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 10:54:05,829 INFO 54876 [egg-watcher:app] watcher start success
+2017-10-20 10:54:05,918 INFO 54876 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 10:54:05 GMT+0800 (CST)
+2017-10-20 11:05:18,170 INFO 57843 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 11:05:18,215 INFO 57843 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 11:05:18,215 INFO 57843 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 11:05:18,226 INFO 57843 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 11:05:19,025 INFO 57843 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 11:05:19,034 INFO 57843 [egg-security] use csrf middleware
+2017-10-20 11:05:19,035 INFO 57843 [egg-security] use methodnoallow middleware
+2017-10-20 11:05:19,035 INFO 57843 [egg-security] use noopen middleware
+2017-10-20 11:05:19,048 INFO 57843 [egg-security] use nosniff middleware
+2017-10-20 11:05:19,054 INFO 57843 [egg-security] use xssProtection middleware
+2017-10-20 11:05:19,055 INFO 57843 [egg-security] use xframe middleware
+2017-10-20 11:05:19,055 INFO 57843 [egg-security] use dta middleware
+2017-10-20 11:05:19,055 INFO 57843 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 11:05:19,138 INFO 57843 [egg-watcher:app] watcher start success
+2017-10-20 11:05:19,161 INFO 57843 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 11:05:19 GMT+0800 (CST)
+2017-10-20 11:31:37,393 INFO 64791 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 11:31:37,540 INFO 64791 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 11:31:37,541 INFO 64791 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 11:31:37,551 INFO 64791 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 11:31:38,560 INFO 64791 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 11:31:38,588 INFO 64791 [egg-security] use csrf middleware
+2017-10-20 11:31:38,593 INFO 64791 [egg-security] use methodnoallow middleware
+2017-10-20 11:31:38,594 INFO 64791 [egg-security] use noopen middleware
+2017-10-20 11:31:38,601 INFO 64791 [egg-security] use nosniff middleware
+2017-10-20 11:31:38,608 INFO 64791 [egg-security] use xssProtection middleware
+2017-10-20 11:31:38,610 INFO 64791 [egg-security] use xframe middleware
+2017-10-20 11:31:38,614 INFO 64791 [egg-security] use dta middleware
+2017-10-20 11:31:38,614 INFO 64791 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 11:31:38,742 INFO 64791 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 11:31:38 GMT+0800 (CST)
+2017-10-20 11:31:38,785 INFO 64791 [egg-watcher:app] watcher start success
+2017-10-20 11:32:40,882 INFO 65060 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 11:32:41,056 INFO 65060 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 11:32:41,057 INFO 65060 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 11:32:41,103 INFO 65060 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 11:32:41,755 INFO 65060 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 11:32:41,764 INFO 65060 [egg-security] use csrf middleware
+2017-10-20 11:32:41,767 INFO 65060 [egg-security] use methodnoallow middleware
+2017-10-20 11:32:41,770 INFO 65060 [egg-security] use noopen middleware
+2017-10-20 11:32:41,776 INFO 65060 [egg-security] use nosniff middleware
+2017-10-20 11:32:41,783 INFO 65060 [egg-security] use xssProtection middleware
+2017-10-20 11:32:41,784 INFO 65060 [egg-security] use xframe middleware
+2017-10-20 11:32:41,789 INFO 65060 [egg-security] use dta middleware
+2017-10-20 11:32:41,789 INFO 65060 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 11:32:41,888 INFO 65060 [egg-watcher:app] watcher start success
+2017-10-20 11:32:41,933 INFO 65060 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 11:32:41 GMT+0800 (CST)
+2017-10-20 14:17:52,405 INFO 91599 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 14:17:52,593 INFO 91599 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 14:17:52,593 INFO 91599 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 14:17:52,649 INFO 91599 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 14:17:53,919 INFO 91599 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 14:17:53,960 INFO 91599 [egg-security] use csrf middleware
+2017-10-20 14:17:53,986 INFO 91599 [egg-security] use methodnoallow middleware
+2017-10-20 14:17:53,988 INFO 91599 [egg-security] use noopen middleware
+2017-10-20 14:17:53,995 INFO 91599 [egg-security] use nosniff middleware
+2017-10-20 14:17:54,002 INFO 91599 [egg-security] use xssProtection middleware
+2017-10-20 14:17:54,022 INFO 91599 [egg-security] use xframe middleware
+2017-10-20 14:17:54,053 INFO 91599 [egg-security] use dta middleware
+2017-10-20 14:17:54,053 INFO 91599 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 14:17:54,233 INFO 91599 [egg-watcher:app] watcher start success
+2017-10-20 14:17:54,319 INFO 91599 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 14:17:54 GMT+0800 (CST)
+2017-10-20 14:18:35,190 INFO 91791 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 14:18:35,472 INFO 91791 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 14:18:35,472 INFO 91791 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 14:18:35,939 INFO 91791 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 14:18:36,983 INFO 91791 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 14:18:37,003 INFO 91791 [egg-security] use csrf middleware
+2017-10-20 14:18:37,006 INFO 91791 [egg-security] use methodnoallow middleware
+2017-10-20 14:18:37,009 INFO 91791 [egg-security] use noopen middleware
+2017-10-20 14:18:37,015 INFO 91791 [egg-security] use nosniff middleware
+2017-10-20 14:18:37,023 INFO 91791 [egg-security] use xssProtection middleware
+2017-10-20 14:18:37,023 INFO 91791 [egg-security] use xframe middleware
+2017-10-20 14:18:37,029 INFO 91791 [egg-security] use dta middleware
+2017-10-20 14:18:37,029 INFO 91791 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 14:18:37,121 INFO 91791 [egg-watcher:app] watcher start success
+2017-10-20 14:18:37,205 INFO 91791 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 14:18:37 GMT+0800 (CST)
+2017-10-20 14:19:29,565 INFO 92033 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 14:19:29,718 INFO 92033 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 14:19:29,718 INFO 92033 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 14:19:29,791 INFO 92033 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 14:19:30,904 INFO 92033 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 14:19:30,911 INFO 92033 [egg-security] use csrf middleware
+2017-10-20 14:19:30,915 INFO 92033 [egg-security] use methodnoallow middleware
+2017-10-20 14:19:30,918 INFO 92033 [egg-security] use noopen middleware
+2017-10-20 14:19:30,924 INFO 92033 [egg-security] use nosniff middleware
+2017-10-20 14:19:30,931 INFO 92033 [egg-security] use xssProtection middleware
+2017-10-20 14:19:30,932 INFO 92033 [egg-security] use xframe middleware
+2017-10-20 14:19:30,937 INFO 92033 [egg-security] use dta middleware
+2017-10-20 14:19:30,937 INFO 92033 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 14:19:31,055 INFO 92033 [egg-watcher:app] watcher start success
+2017-10-20 14:19:31,058 INFO 92033 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 14:19:31 GMT+0800 (CST)
+2017-10-20 14:20:17,773 INFO 92243 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 14:20:17,919 INFO 92243 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 14:20:17,920 INFO 92243 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 14:20:17,966 INFO 92243 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 14:20:18,837 INFO 92243 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 14:20:18,878 INFO 92243 [egg-security] use csrf middleware
+2017-10-20 14:20:18,891 INFO 92243 [egg-security] use methodnoallow middleware
+2017-10-20 14:20:18,893 INFO 92243 [egg-security] use noopen middleware
+2017-10-20 14:20:18,900 INFO 92243 [egg-security] use nosniff middleware
+2017-10-20 14:20:18,918 INFO 92243 [egg-security] use xssProtection middleware
+2017-10-20 14:20:18,929 INFO 92243 [egg-security] use xframe middleware
+2017-10-20 14:20:18,930 INFO 92243 [egg-security] use dta middleware
+2017-10-20 14:20:18,930 INFO 92243 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 14:20:19,135 INFO 92243 [egg-watcher:app] watcher start success
+2017-10-20 14:20:19,137 INFO 92243 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 14:20:19 GMT+0800 (CST)
+2017-10-20 14:20:41,595 INFO 92354 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 14:20:41,844 INFO 92354 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 14:20:41,845 INFO 92354 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 14:20:42,161 INFO 92354 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 14:20:43,190 INFO 92354 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 14:20:43,197 INFO 92354 [egg-security] use csrf middleware
+2017-10-20 14:20:43,201 INFO 92354 [egg-security] use methodnoallow middleware
+2017-10-20 14:20:43,203 INFO 92354 [egg-security] use noopen middleware
+2017-10-20 14:20:43,210 INFO 92354 [egg-security] use nosniff middleware
+2017-10-20 14:20:43,217 INFO 92354 [egg-security] use xssProtection middleware
+2017-10-20 14:20:43,219 INFO 92354 [egg-security] use xframe middleware
+2017-10-20 14:20:43,223 INFO 92354 [egg-security] use dta middleware
+2017-10-20 14:20:43,223 INFO 92354 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 14:20:43,322 INFO 92354 [egg-watcher:app] watcher start success
+2017-10-20 14:20:43,324 INFO 92354 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 14:20:43 GMT+0800 (CST)
+2017-10-20 14:21:05,177 INFO 92466 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 14:21:05,230 INFO 92466 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 14:21:05,230 INFO 92466 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 14:21:05,237 INFO 92466 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 14:21:05,324 INFO 92466 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 14:21:05,328 INFO 92466 [egg-security] use csrf middleware
+2017-10-20 14:21:05,328 INFO 92466 [egg-security] use methodnoallow middleware
+2017-10-20 14:21:05,328 INFO 92466 [egg-security] use noopen middleware
+2017-10-20 14:21:05,329 INFO 92466 [egg-security] use nosniff middleware
+2017-10-20 14:21:05,329 INFO 92466 [egg-security] use xssProtection middleware
+2017-10-20 14:21:05,330 INFO 92466 [egg-security] use xframe middleware
+2017-10-20 14:21:05,330 INFO 92466 [egg-security] use dta middleware
+2017-10-20 14:21:05,330 INFO 92466 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 14:21:05,392 INFO 92466 [egg-watcher:app] watcher start success
+2017-10-20 14:21:05,394 INFO 92466 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 14:21:05 GMT+0800 (CST)
+2017-10-20 14:21:39,180 INFO 92601 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 14:21:39,276 INFO 92601 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 14:21:39,276 INFO 92601 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 14:21:39,329 INFO 92601 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 14:21:39,877 INFO 92601 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 14:21:39,884 INFO 92601 [egg-security] use csrf middleware
+2017-10-20 14:21:39,887 INFO 92601 [egg-security] use methodnoallow middleware
+2017-10-20 14:21:39,890 INFO 92601 [egg-security] use noopen middleware
+2017-10-20 14:21:39,896 INFO 92601 [egg-security] use nosniff middleware
+2017-10-20 14:21:39,904 INFO 92601 [egg-security] use xssProtection middleware
+2017-10-20 14:21:39,904 INFO 92601 [egg-security] use xframe middleware
+2017-10-20 14:21:39,910 INFO 92601 [egg-security] use dta middleware
+2017-10-20 14:21:39,910 INFO 92601 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 14:21:40,005 INFO 92601 [egg-watcher:app] watcher start success
+2017-10-20 14:21:40,015 INFO 92601 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 14:21:40 GMT+0800 (CST)
+2017-10-20 14:33:53,709 INFO 95823 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 14:33:53,935 INFO 95823 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 14:33:53,935 INFO 95823 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 14:33:53,985 INFO 95823 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 14:33:54,968 INFO 95823 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 14:33:54,996 INFO 95823 [egg-security] use csrf middleware
+2017-10-20 14:33:55,022 INFO 95823 [egg-security] use methodnoallow middleware
+2017-10-20 14:33:55,025 INFO 95823 [egg-security] use noopen middleware
+2017-10-20 14:33:55,031 INFO 95823 [egg-security] use nosniff middleware
+2017-10-20 14:33:55,039 INFO 95823 [egg-security] use xssProtection middleware
+2017-10-20 14:33:55,039 INFO 95823 [egg-security] use xframe middleware
+2017-10-20 14:33:55,044 INFO 95823 [egg-security] use dta middleware
+2017-10-20 14:33:55,044 INFO 95823 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 14:33:55,217 INFO 95823 [egg-watcher:app] watcher start success
+2017-10-20 14:33:55,292 INFO 95823 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 14:33:55 GMT+0800 (CST)
+2017-10-20 15:10:43,266 INFO 5679 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 15:10:43,962 INFO 5679 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 15:10:43,962 INFO 5679 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 15:10:44,445 INFO 5679 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 15:10:47,707 INFO 5679 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 15:10:47,736 INFO 5679 [egg-security] use csrf middleware
+2017-10-20 15:10:47,739 INFO 5679 [egg-security] use methodnoallow middleware
+2017-10-20 15:10:47,741 INFO 5679 [egg-security] use noopen middleware
+2017-10-20 15:10:47,748 INFO 5679 [egg-security] use nosniff middleware
+2017-10-20 15:10:47,755 INFO 5679 [egg-security] use xssProtection middleware
+2017-10-20 15:10:47,755 INFO 5679 [egg-security] use xframe middleware
+2017-10-20 15:10:47,761 INFO 5679 [egg-security] use dta middleware
+2017-10-20 15:10:47,761 INFO 5679 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 15:10:47,861 INFO 5679 [egg-watcher:app] watcher start success
+2017-10-20 15:10:47,923 INFO 5679 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 15:10:47 GMT+0800 (CST)
+2017-10-20 15:14:03,501 INFO 6618 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 15:14:03,808 INFO 6618 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 15:14:03,809 INFO 6618 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 15:14:03,903 INFO 6618 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 15:14:04,976 INFO 6618 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 15:14:05,038 INFO 6618 [egg-security] use csrf middleware
+2017-10-20 15:14:05,041 INFO 6618 [egg-security] use methodnoallow middleware
+2017-10-20 15:14:05,044 INFO 6618 [egg-security] use noopen middleware
+2017-10-20 15:14:05,051 INFO 6618 [egg-security] use nosniff middleware
+2017-10-20 15:14:05,058 INFO 6618 [egg-security] use xssProtection middleware
+2017-10-20 15:14:05,058 INFO 6618 [egg-security] use xframe middleware
+2017-10-20 15:14:05,064 INFO 6618 [egg-security] use dta middleware
+2017-10-20 15:14:05,064 INFO 6618 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 15:14:05,177 INFO 6618 [egg-watcher:app] watcher start success
+2017-10-20 15:14:05,229 INFO 6618 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 15:14:05 GMT+0800 (CST)
+2017-10-20 15:14:22,934 INFO 6698 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 15:14:23,210 INFO 6698 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 15:14:23,210 INFO 6698 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 15:14:23,853 INFO 6698 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 15:14:25,496 INFO 6698 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 15:14:25,504 INFO 6698 [egg-security] use csrf middleware
+2017-10-20 15:14:25,507 INFO 6698 [egg-security] use methodnoallow middleware
+2017-10-20 15:14:25,510 INFO 6698 [egg-security] use noopen middleware
+2017-10-20 15:14:25,516 INFO 6698 [egg-security] use nosniff middleware
+2017-10-20 15:14:25,523 INFO 6698 [egg-security] use xssProtection middleware
+2017-10-20 15:14:25,524 INFO 6698 [egg-security] use xframe middleware
+2017-10-20 15:14:25,529 INFO 6698 [egg-security] use dta middleware
+2017-10-20 15:14:25,529 INFO 6698 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 15:14:25,624 INFO 6698 [egg-watcher:app] watcher start success
+2017-10-20 15:14:25,644 INFO 6698 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 15:14:25 GMT+0800 (CST)
+2017-10-20 15:15:36,768 INFO 7030 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 15:15:36,984 INFO 7030 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 15:15:36,984 INFO 7030 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 15:15:37,135 INFO 7030 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 15:15:37,904 INFO 7030 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 15:15:37,948 INFO 7030 [egg-security] use csrf middleware
+2017-10-20 15:15:37,971 INFO 7030 [egg-security] use methodnoallow middleware
+2017-10-20 15:15:38,007 INFO 7030 [egg-security] use noopen middleware
+2017-10-20 15:15:38,035 INFO 7030 [egg-security] use nosniff middleware
+2017-10-20 15:15:38,076 INFO 7030 [egg-security] use xssProtection middleware
+2017-10-20 15:15:38,107 INFO 7030 [egg-security] use xframe middleware
+2017-10-20 15:15:38,137 INFO 7030 [egg-security] use dta middleware
+2017-10-20 15:15:38,138 INFO 7030 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 15:15:38,379 INFO 7030 [egg-watcher:app] watcher start success
+2017-10-20 15:15:38,419 INFO 7030 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 15:15:38 GMT+0800 (CST)
+2017-10-20 15:21:02,261 INFO 8458 [egg:logger] init all loggers with options: {"dir":"/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-backend-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-10-20 15:21:02,483 INFO 8458 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-20 15:21:02,483 INFO 8458 [egg-schedule]: register schedule egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-20 15:21:02,546 INFO 8458 [egg-mysql] connecting root@127.0.0.1:3306/blog
+2017-10-20 15:21:03,656 INFO 8458 [egg-static] starting static serve /public/ -> /Users/tanker/Documents/Tanker/blog/blog-backend/app/public
+2017-10-20 15:21:03,665 INFO 8458 [egg-security] use csrf middleware
+2017-10-20 15:21:03,668 INFO 8458 [egg-security] use methodnoallow middleware
+2017-10-20 15:21:03,670 INFO 8458 [egg-security] use noopen middleware
+2017-10-20 15:21:03,677 INFO 8458 [egg-security] use nosniff middleware
+2017-10-20 15:21:03,684 INFO 8458 [egg-security] use xssProtection middleware
+2017-10-20 15:21:03,685 INFO 8458 [egg-security] use xframe middleware
+2017-10-20 15:21:03,690 INFO 8458 [egg-security] use dta middleware
+2017-10-20 15:21:03,690 INFO 8458 [egg-security] compose 7 middlewares into one security middleware
+2017-10-20 15:21:03,782 INFO 8458 [egg-watcher:app] watcher start success
+2017-10-20 15:21:03,821 INFO 8458 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 20 2017 15:21:03 GMT+0800 (CST)
+2017-10-21 00:00:00,028 INFO 8458 [egg-schedule]: get message egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-21 00:00:00,119 INFO 8458 [egg-schedule]: get message egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-21 00:00:00,134 INFO 8458 [egg-logrotator] broadcast log-reload
+2017-10-21 00:00:00,135 INFO 8458 [egg-logrotator] rotate files success by DayRotator, files ["/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/common-error.log -> /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/common-error.log.2017-10-20","/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/blog-backend-web.log -> /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/blog-backend-web.log.2017-10-20","/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-web.log -> /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-web.log.2017-10-20","/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-agent.log -> /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-agent.log.2017-10-20"]
+2017-10-21 00:00:00,135 INFO 8458 [egg-schedule] egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js excute succeed, used 106ms
+2017-10-21 00:00:00,138 INFO 8458 [egg-logrotator] clean all log before 31 days
+2017-10-21 00:00:00,138 INFO 8458 [egg-schedule] egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js excute succeed, used 19ms

@@ -1,0 +1,555 @@
+2017-10-12 17:56:05,675 WARN 14018 [-/127.0.0.1/-/101ms POST /articleSubmit] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ArticleController.submit (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/article.js:10:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'articleContent' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 14018
+hostname: tankerdeiMac.local
+
+2017-10-13 09:39:47,911 WARN 33296 [-/192.168.1.104/-/2ms POST /articleSubmit] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ArticleController.submit (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/article.js:10:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'articleContent', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 33296
+hostname: tankerdeiMac.local
+
+2017-10-13 09:41:59,107 WARN 33296 [-/192.168.1.104/-/2ms POST /articleSubmit] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ArticleController.submit (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/article.js:10:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'articleContent', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 33296
+hostname: tankerdeiMac.local
+
+2017-10-13 09:42:33,785 WARN 33296 [-/192.168.1.104/-/1ms POST /articleSubmit] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ArticleController.submit (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/article.js:10:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'articleContent', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 33296
+hostname: tankerdeiMac.local
+
+2017-10-13 09:46:42,303 WARN 33296 [-/192.168.1.104/-/2ms POST /articleSubmit] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at ArticleController.submit (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/article.js:10:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'articleContent' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 33296
+hostname: tankerdeiMac.local
+
+2017-10-13 10:59:36,216 WARN 41379 [-/192.168.1.104/-/131ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'userName', code: 'missing_field' }, { message: 'required', field: 'password', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 41379
+hostname: tankerdeiMac.local
+
+2017-10-13 10:59:56,150 WARN 41409 [-/192.168.1.104/-/115ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 41409
+hostname: tankerdeiMac.local
+
+2017-10-13 10:59:57,991 WARN 41409 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 41409
+hostname: tankerdeiMac.local
+
+2017-10-13 11:01:03,054 WARN 41409 [-/192.168.1.104/-/3ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'required', field: 'userName', code: 'missing_field' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 41409
+hostname: tankerdeiMac.local
+
+2017-10-13 14:33:58,818 WARN 63868 [-/192.168.1.104/-/138ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:34:21,159 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:35:35,983 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:35:37,432 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:36:01,883 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:36:34,146 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:36:43,709 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:38:02,478 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:38:03,111 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:38:03,605 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:38:25,255 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:39:07,540 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:39:17,335 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:39:47,700 WARN 63868 [-/192.168.1.104/-/3ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:39:47,942 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:41:43,130 WARN 63868 [-/192.168.1.104/-/3ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:41:44,535 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:41:45,227 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:41:45,839 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.validate (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-validate/app/extend/context.js:14:17)
+    at UserController.create (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:18:22)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+message: 'Validation Failed'
+code: 'invalid_param'
+errors: [ { message: 'should not be empty', code: 'invalid', field: 'username' } ]
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:55:06,606 WARN 63868 [-/192.168.1.104/-/7ms POST /userAdd] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-10-13 14:55:06,610 WARN 63868 [-/192.168.1.104/-/8ms POST /userAdd] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/app/extend/context.js:139:17)
+    at Object.csrf (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at next (native)
+    at Object.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+message: 'missing csrf token'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:55:31,786 WARN 63868 [-/192.168.1.104/-/1ms POST /userAdd] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-10-13 14:55:31,787 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/app/extend/context.js:139:17)
+    at Object.csrf (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at next (native)
+    at Object.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+message: 'missing csrf token'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 15:22:02,880 WARN 63868 [-/192.168.1.104/-/2ms POST /userAdd] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-10-13 15:22:02,881 WARN 63868 [-/192.168.1.104/-/3ms POST /userAdd] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/app/extend/context.js:139:17)
+    at Object.csrf (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-security/lib/middlewares/csrf.js:31:10)
+    at next (native)
+    at Object.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+message: 'missing csrf token'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 63868
+hostname: tankerdeiMac.local
+

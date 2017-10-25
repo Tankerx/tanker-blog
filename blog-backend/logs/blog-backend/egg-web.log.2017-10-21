@@ -1,0 +1,11 @@
+2017-10-21 00:00:00,174 INFO 8458 [egg-logrotator] app logger reload: got log-reload message
+2017-10-21 23:59:59,657 INFO 8458 [egg-schedule]: get message egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-21 23:59:59,702 INFO 8458 [egg-logrotator] clean all log before 31 days
+2017-10-21 23:59:59,702 INFO 8458 [egg-schedule] egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js excute succeed, used 44ms
+2017-10-21 23:59:59,741 INFO 8458 [egg-schedule]: get message egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-21 23:59:59,747 INFO 8458 [egg-logrotator] rotate files success by DayRotator, files []
+2017-10-21 23:59:59,747 INFO 8458 [egg-schedule] egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js excute succeed, used 6ms
+2017-10-22 23:59:59,648 INFO 8458 [egg-schedule]: get message egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-22 23:59:59,688 INFO 8458 [egg-logrotator] broadcast log-reload
+2017-10-22 23:59:59,688 INFO 8458 [egg-logrotator] rotate files success by DayRotator, files ["/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/common-error.log -> /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/common-error.log.2017-10-21","/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/blog-backend-web.log -> /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/blog-backend-web.log.2017-10-21","/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-web.log -> /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-web.log.2017-10-21","/Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-agent.log -> /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-agent.log.2017-10-21"]
+2017-10-22 23:59:59,688 INFO 8458 [egg-schedule] egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js excute succeed, used 39ms

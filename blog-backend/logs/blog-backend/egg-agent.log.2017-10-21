@@ -1,0 +1,4 @@
+2017-10-21 00:00:00,525 INFO 64778 [egg-logrotator] agent logger reload: got log-reload message
+2017-10-21 23:59:59,653 INFO 64778 [egg-schedule] send message: sendRandom egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-10-21 23:59:59,741 INFO 64778 [egg-schedule] send message: sendRandom egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-10-22 23:59:59,643 INFO 64778 [egg-schedule] send message: sendRandom egg-schedule:/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

@@ -1,0 +1,844 @@
+2017-10-11 11:06:14,698 ERROR 85728 [-/127.0.0.1/-/40ms GET /user] nodejs.TypeError: Cannot read property 'index' of undefined
+    at UserController.index (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:6:57)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+
+pid: 85728
+hostname: tankerdeiMac.local
+
+2017-10-11 11:09:02,945 ERROR 86106 [-/127.0.0.1/-/8ms GET /user] nodejs.TypeError: Cannot read property 'index' of undefined
+    at UserController.index (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:6:57)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+
+pid: 86106
+hostname: tankerdeiMac.local
+
+2017-10-11 11:10:05,316 ERROR 86257 [-/127.0.0.1/-/11ms GET /user] nodejs.TypeError: Cannot read property 'index' of undefined
+    at UserController.getAll (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:6:57)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+
+pid: 86257
+hostname: tankerdeiMac.local
+
+2017-10-11 11:11:03,725 ERROR 86370 [-/127.0.0.1/-/18ms GET /user] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.getAll (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:6:80)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+
+pid: 86370
+hostname: tankerdeiMac.local
+
+2017-10-11 11:42:56,193 ERROR 90212 [-/127.0.0.1/-/8ms GET /user] nodejs.TypeError: Cannot read property 'body' of undefined
+    at UserController.getAll (/Users/tanker/Documents/Tanker/blog/blog-backend/app/controller/user.js:7:81)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+
+pid: 90212
+hostname: tankerdeiMac.local
+
+2017-10-11 16:33:37,574 ERROR 15346 nodejs.ClusterClientNoResponseError: client no response in 78000ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 15346
+hostname: tankerdeiMac.local
+
+2017-10-12 09:25:39,436 ERROR 53637 nodejs.ClusterClientNoResponseError: client no response in 76485ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 53637
+hostname: tankerdeiMac.local
+
+2017-10-12 17:16:01,093 ERROR 11083 [-/127.0.0.1/-/93ms POST /articleSubmit] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'field list'
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `article`(`id`, `articleContent`) VALUES('4544564546', '4464646')
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'id\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'INSERT INTO `article`(`id`, `articleContent`) VALUES(\'4544564546\', \'4464646\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 11083
+hostname: tankerdeiMac.local
+
+2017-10-12 17:16:30,397 ERROR 11118 [-/127.0.0.1/-/67ms POST /articleSubmit] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at Object.parse (native)
+    at ArticleService.submit (/Users/tanker/Documents/Tanker/blog/blog-backend/app/service/article.js:13:66)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 11118
+hostname: tankerdeiMac.local
+
+2017-10-12 17:17:45,853 ERROR 11211 [-/127.0.0.1/-/19ms POST /articleSubmit] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at Object.parse (native)
+    at ArticleService.submit (/Users/tanker/Documents/Tanker/blog/blog-backend/app/service/article.js:13:66)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at Object.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:118:63)
+    at next (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:69:7)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+pid: 11211
+hostname: tankerdeiMac.local
+
+2017-10-12 17:18:43,636 ERROR 11284 [-/127.0.0.1/-/25ms POST /articleSubmit] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'field list'
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `article`(`id`, `articleContent`) VALUES('4544564546', '4464646')
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'id\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'INSERT INTO `article`(`id`, `articleContent`) VALUES(\'4544564546\', \'4464646\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 11284
+hostname: tankerdeiMac.local
+
+2017-10-12 17:19:15,187 ERROR 11284 [-/127.0.0.1/-/7ms POST /articleSubmit] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'field list'
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `article`(`id`, `articleContent`) VALUES('4544564546', '4464646')
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'id\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'INSERT INTO `article`(`id`, `articleContent`) VALUES(\'4544564546\', \'4464646\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 11284
+hostname: tankerdeiMac.local
+
+2017-10-13 09:42:59,857 ERROR 33296 [-/192.168.1.104/-/5ms POST /articleSubmit] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE6\xA2\xAF\xE5\xAD\x90...' for column 'article_content' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `article`(`user_id`, `article_content`) VALUES('123456', '<p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">梯子的梯阶从来不是用来搁脚的，它只是让人们的脚放上一段<a href=\"http://www.duwenzhang.com/huati/shijian/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">时间</a>，以便让别一只脚能够再往上登。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　山路曲折盘旋，但毕竟朝着顶峰延伸。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　只有登上山顶，才能看到那边的风光。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　即使道路坎坷不平，车轮也要前进；即使江河波涛汹涌，船只也航行。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　只有创造，才是真正的<a href=\"http://www.duwenzhang.com/huati/xiangshou/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">享受</a>，只有拚搏，才是<a href=\"http://www.duwenzhang.com/huati/chongshi/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">充实</a>的<a href=\"http://www.duwenzhang.com/wenzhang/shenghuosuibi/\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">生活</a>。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　敢于向黑暗宣战的人，心里必须充满光明。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　崇高的<a href=\"http://www.duwenzhang.com/huati/lixiang/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">理想</a>就象生长在高山上的鲜花。如果要搞下它，勤奋才能是攀登的绳索。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　自然界没有风风雨雨，大地就不会春华秋实。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　勤奋是你<a href=\"http://www.duwenzhang.com/huati/shengming/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">生命</a>的密码，能译出你一部壮丽的史诗。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　忙于采集的蜜蜂，无暇在人前高谈阔论。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　勇士搏出惊涛骇流而不沉沦，懦夫在风平浪静也会溺水。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　不管多么险峻的高山，总是为不畏艰难的人留下一条攀登的路。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　只要能收获<a href=\"http://www.duwenzhang.com/huati/tianmi/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">甜蜜</a>，荆棘丛中也会有蜜蜂忙碌的身影。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　生活可以是甜的，也可以是苦的，但不能是没味的。你可以胜利，也可以<a href=\"http://www.duwenzhang.com/huati/shibai/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">失败</a>，但你不能屈服。九百九十九次落空了，还有一千次呢……</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　机会只对进取有为的人开放，庸人永远无法光顾。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　只会在水泥地上走路的人，永远不会留下深深的脚印。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　生命力的意义在于拚搏，因为世界本身就是一个竞技场。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　海浪的品格，就是无数次被礁石击碎又无数闪地扑向礁石。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　榕树因为扎根于深厚的土壤，生命的绿荫才会越长越茂盛。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　骄傲，是断了引线的风筝，稍纵即逝;<a href=\"http://www.duwenzhang.com/huati/zibei/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">自卑</a>，是剪了双翼的飞鸟，难上青天。这两者都是成才的大忌。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　树苗如果因为怕痛而拒绝修剪，那就永远不会成材。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　经过大海的一番磨砺，卵石才变得更加<a href=\"http://www.duwenzhang.com/huati/meili/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">美丽</a>光滑。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　如果把才华比作剑，那么勤奋就是磨刀石。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　经受了火的洗礼泥巴也会有<a href=\"http://www.duwenzhang.com/huati/jianqiang/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">坚强</a>的体魄。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　萤火虫的光点虽然微弱，但亮着便是向黑暗挑战。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　美丽的蓝图，落在懒汉手里，也不过是一页废纸。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　一时的<a href=\"http://www.duwenzhang.com/huati/cuozhe/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">挫折</a>往往可以通过不屈的搏击，变成学问及见识。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　<a href=\"http://www.duwenzhang.com/huati/nuli/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">努力</a>向上的开拓，才使弯曲的竹鞭化作了笔直的毛竹。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　不去耕耘 ，不去播种，再肥的沃土也长不出庄稼，不去<a href=\"http://www.duwenzhang.com/huati/fendou/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">奋斗</a>，不去创造，再美的<a href=\"http://www.duwenzhang.com/huati/qingchun/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">青春</a>也结不出硕果。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　再好的种子，不播种下去，也结不出丰硕的果实。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　如果可恨的挫折使你尝到苦果，那么，奋起必将让你尝到<a href=\"http://www.duwenzhang.com/wenzhang/renshengzheli/\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">人生</a>的欢乐。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　瀑布---为了奔向江河湖海，即使面临百丈深渊，仍然呼啸前行，决不退缩 对于勇士来说，贫病、困窘、责难、诽谤、冷嘲热讽……，一切压迫都是前进的动力。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　一帆风顺，并不等于行驶的是一条平坦的航线。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　在茫茫沙漠，唯有前进的脚步才是<a href=\"http://www.duwenzhang.com/huati/xiwang/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">希望</a>的象征。</p><p><br/></p>')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE6\\xA2\\xAF\\xE5\\xAD\\x90...\' for column \'article_content\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `article`(`user_id`, `article_content`) VALUES(\'123456\', \'<p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">梯子的梯阶从来不是用来搁脚的，它只是让人们的脚放上一段<a href=\\"http://www.duwenzhang.com/huati/shijian/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">时间</a>，以便让别一只脚能够再往上登。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　山路曲折盘旋，但毕竟朝着顶峰延伸。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　只有登上山顶，才能看到那边的风光。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　即使道路坎坷不平，车轮也要前进；即使江河波涛汹涌，船只也航行。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　只有创造，才是真正的<a href=\\"http://www.duwenzhang.com/huati/xiangshou/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">享受</a>，只有拚搏，才是<a href=\\"http://www.duwenzhang.com/huati/chongshi/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">充实</a>的<a href=\\"http://www.duwenzhang.com/wenzhang/shenghuosuibi/\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">生活</a>。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　敢于向黑暗宣战的人，心里必须充满光明。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　崇高的<a href=\\"http://www.duwenzhang.com/huati/lixiang/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">理想</a>就象生长在高山上的鲜花。如果要搞下它，勤奋才能是攀登的绳索。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　自然界没有风风雨雨，大地就不会春华秋实。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　勤奋是你<a href=\\"http://www.duwenzhang.com/huati/shengming/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">生命</a>的密码，能译出你一部壮丽的史诗。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　忙于采集的蜜蜂，无暇在人前高谈阔论。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　勇士搏出惊涛骇流而不沉沦，懦夫在风平浪静也会溺水。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　不管多么险峻的高山，总是为不畏艰难的人留下一条攀登的路。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　只要能收获<a href=\\"http://www.duwenzhang.com/huati/tianmi/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">甜蜜</a>，荆棘丛中也会有蜜蜂忙碌的身影。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　生活可以是甜的，也可以是苦的，但不能是没味的。你可以胜利，也可以<a href=\\"http://www.duwenzhang.com/huati/shibai/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">失败</a>，但你不能屈服。九百九十九次落空了，还有一千次呢……</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　机会只对进取有为的人开放，庸人永远无法光顾。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　只会在水泥地上走路的人，永远不会留下深深的脚印。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　生命力的意义在于拚搏，因为世界本身就是一个竞技场。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　海浪的品格，就是无数次被礁石击碎又无数闪地扑向礁石。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　榕树因为扎根于深厚的土壤，生命的绿荫才会越长越茂盛。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　骄傲，是断了引线的风筝，稍纵即逝;<a href=\\"http://www.duwenzhang.com/huati/zibei/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">自卑</a>，是剪了双翼的飞鸟，难上青天。这两者都是成才的大忌。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　树苗如果因为怕痛而拒绝修剪，那就永远不会成材。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　经过大海的一番磨砺，卵石才变得更加<a href=\\"http://www.duwenzhang.com/huati/meili/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">美丽</a>光滑。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　如果把才华比作剑，那么勤奋就是磨刀石。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　经受了火的洗礼泥巴也会有<a href=\\"http://www.duwenzhang.com/huati/jianqiang/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">坚强</a>的体魄。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　萤火虫的光点虽然微弱，但亮着便是向黑暗挑战。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　美丽的蓝图，落在懒汉手里，也不过是一页废纸。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　一时的<a href=\\"http://www.duwenzhang.com/huati/cuozhe/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">挫折</a>往往可以通过不屈的搏击，变成学问及见识。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　<a href=\\"http://www.duwenzhang.com/huati/nuli/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">努力</a>向上的开拓，才使弯曲的竹鞭化作了笔直的毛竹。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　不去耕耘 ，不去播种，再肥的沃土也长不出庄稼，不去<a href=\\"http://www.duwenzhang.com/huati/fendou/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">奋斗</a>，不去创造，再美的<a href=\\"http://www.duwenzhang.com/huati/qingchun/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">青春</a>也结不出硕果。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　再好的种子，不播种下去，也结不出丰硕的果实。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　如果可恨的挫折使你尝到苦果，那么，奋起必将让你尝到<a href=\\"http://www.duwenzhang.com/wenzhang/renshengzheli/\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">人生</a>的欢乐。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　瀑布---为了奔向江河湖海，即使面临百丈深渊，仍然呼啸前行，决不退缩 对于勇士来说，贫病、困窘、责难、诽谤、冷嘲热讽……，一切压迫都是前进的动力。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　一帆风顺，并不等于行驶的是一条平坦的航线。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　在茫茫沙漠，唯有前进的脚步才是<a href=\\"http://www.duwenzhang.com/huati/xiwang/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">希望</a>的象征。</p><p><br/></p>\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 33296
+hostname: tankerdeiMac.local
+
+2017-10-13 09:46:37,153 ERROR 33296 [-/192.168.1.104/-/2ms POST /articleSubmit] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE6\xA2\xAF\xE5\xAD\x90...' for column 'article_content' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `article`(`user_id`, `article_content`) VALUES('123456', '<p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">梯子的梯阶从来不是用来搁脚的，它只是让人们的脚放上一段<a href=\"http://www.duwenzhang.com/huati/shijian/index1.html\" style=\"color: rgb(51, 51, 51); text-decoration-line: none;\">时间</a>，以便让别一只脚能够再往上登。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\">　　山路曲折盘旋，但毕竟朝着顶峰延伸。</p><p style=\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\"><br/></p>')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE6\\xA2\\xAF\\xE5\\xAD\\x90...\' for column \'article_content\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `article`(`user_id`, `article_content`) VALUES(\'123456\', \'<p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">梯子的梯阶从来不是用来搁脚的，它只是让人们的脚放上一段<a href=\\"http://www.duwenzhang.com/huati/shijian/index1.html\\" style=\\"color: rgb(51, 51, 51); text-decoration-line: none;\\">时间</a>，以便让别一只脚能够再往上登。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\">　　山路曲折盘旋，但毕竟朝着顶峰延伸。</p><p style=\\"font-family: &quot;PingFang SC&quot;; font-size: 14px; white-space: normal;\\"><br/></p>\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 33296
+hostname: tankerdeiMac.local
+
+2017-10-13 09:49:59,874 ERROR 33296 [-/192.168.1.104/-/3ms POST /articleSubmit] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\x93\xA5...' for column 'article_content' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `article`(`user_id`, `article_content`) VALUES('123456', '<p>大哥我殴打后果滑动我个hi换个号oh噢UI哦</p>')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\x93\\xA5...\' for column \'article_content\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `article`(`user_id`, `article_content`) VALUES(\'123456\', \'<p>大哥我殴打后果滑动我个hi换个号oh噢UI哦</p>\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 33296
+hostname: tankerdeiMac.local
+
+2017-10-13 14:43:29,999 ERROR 63868 [-/192.168.1.104/-/34ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA4\xA7...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大大大', '123456', 'd2f1bdd0-afe1-11e7-8747-25b16eb0d669')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA4\\xA7...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大大大\', \'123456\', \'d2f1bdd0-afe1-11e7-8747-25b16eb0d669\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 14:56:50,928 ERROR 63868 [-/192.168.1.104/-/6ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xAE\xB6...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大家啊回到家啊号', '123456', 'b05a3bb0-afe3-11e7-8747-25b16eb0d669')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xAE\\xB6...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大家啊回到家啊号\', \'123456\', \'b05a3bb0-afe3-11e7-8747-25b16eb0d669\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 15:18:40,767 ERROR 63868 [-/192.168.1.104/-/4ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xAE\xB6...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大家啊回到家啊号', '123456', 'bd1442d0-afe6-11e7-8747-25b16eb0d669')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xAE\\xB6...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大家啊回到家啊号\', \'123456\', \'bd1442d0-afe6-11e7-8747-25b16eb0d669\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 15:26:32,089 ERROR 63868 [-/192.168.1.104/-/9ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', 'd601d540-afe7-11e7-8747-25b16eb0d669')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'d601d540-afe7-11e7-8747-25b16eb0d669\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 63868
+hostname: tankerdeiMac.local
+
+2017-10-13 15:31:21,691 ERROR 70980 [-/192.168.1.104/-/101ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', '829f4940-afe8-11e7-ac78-05e5d25e644a')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'829f4940-afe8-11e7-ac78-05e5d25e644a\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 70980
+hostname: tankerdeiMac.local
+
+2017-10-13 15:34:27,159 ERROR 71062 [-/192.168.1.104/-/128ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', 'f12a1570-afe8-11e7-a5ab-cdaa342bf27a')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'f12a1570-afe8-11e7-a5ab-cdaa342bf27a\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 71062
+hostname: tankerdeiMac.local
+
+2017-10-13 15:35:29,573 ERROR 71062 [-/192.168.1.104/-/6ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', '165f8910-afe9-11e7-a5ab-cdaa342bf27a')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'165f8910-afe9-11e7-a5ab-cdaa342bf27a\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 71062
+hostname: tankerdeiMac.local
+
+2017-10-13 15:36:52,717 ERROR 71660 [-/192.168.1.104/-/101ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', '47ed6330-afe9-11e7-9ecc-e953a5df623c')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'47ed6330-afe9-11e7-9ecc-e953a5df623c\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 71660
+hostname: tankerdeiMac.local
+
+2017-10-13 15:47:59,067 ERROR 71660 [-/192.168.1.104/-/10ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', 'd51aa230-afea-11e7-9ecc-e953a5df623c')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'d51aa230-afea-11e7-9ecc-e953a5df623c\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 71660
+hostname: tankerdeiMac.local
+
+2017-10-13 15:48:27,837 ERROR 73046 [-/192.168.1.104/-/132ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', 'e6402120-afea-11e7-8aca-610d2d5a9418')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'e6402120-afea-11e7-8aca-610d2d5a9418\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 73046
+hostname: tankerdeiMac.local
+
+2017-10-13 15:48:29,185 ERROR 73046 [-/192.168.1.104/-/7ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', 'e70ebbc0-afea-11e7-8aca-610d2d5a9418')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'e70ebbc0-afea-11e7-8aca-610d2d5a9418\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 73046
+hostname: tankerdeiMac.local
+
+2017-10-13 15:48:29,655 ERROR 73046 [-/192.168.1.104/-/11ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', 'e756e850-afea-11e7-8aca-610d2d5a9418')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'e756e850-afea-11e7-8aca-610d2d5a9418\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 73046
+hostname: tankerdeiMac.local
+
+2017-10-13 16:30:17,115 ERROR 73046 [-/192.168.1.104/-/63ms POST /userAdd] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE5\xA4\xA7\xE5\xA5\xBD...' for column 'username' at row 1
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大好时机开始复活卡', '123456', 'bddcde70-aff0-11e7-8aca-610d2d5a9418')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect string value: \'\\xE5\\xA4\\xA7\\xE5\\xA5\\xBD...\' for column \'username\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大好时机开始复活卡\', \'123456\', \'bddcde70-aff0-11e7-8aca-610d2d5a9418\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 73046
+hostname: tankerdeiMac.local
+
+2017-10-13 16:33:49,014 ERROR 73046 [-/192.168.1.104/-/5ms POST /userAdd] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'field list'
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大大事故覅', '123456', '3c340230-aff1-11e7-8aca-610d2d5a9418')
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'id\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大大事故覅\', \'123456\', \'3c340230-aff1-11e7-8aca-610d2d5a9418\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 73046
+hostname: tankerdeiMac.local
+
+2017-10-13 16:34:27,461 ERROR 73046 [-/192.168.1.104/-/12ms POST /userAdd] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'id' in 'field list'
+    at Query.Sequence._packetToError (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:547:20)
+    --------------------
+    at Pool.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/ali-rds/lib/operator.js:54:29)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+    at /Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `user`(`username`, `password`, `id`) VALUES('大大事故覅', '123456', '531d55a0-aff1-11e7-8aca-610d2d5a9418')
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'id\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'INSERT INTO `user`(`username`, `password`, `id`) VALUES(\'大大事故覅\', \'123456\', \'531d55a0-aff1-11e7-8aca-610d2d5a9418\')'
+headers: { 'Access-Control-Allow-Origin': 'http://localhost:8080' }
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 73046
+hostname: tankerdeiMac.local
+

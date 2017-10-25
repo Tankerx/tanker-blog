@@ -1,0 +1,32 @@
+2017-10-21 23:59:59,744 ERROR 8458 nodejs.Error: [egg-logrotator] rename /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/common-error.log, found exception: targetFile /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/common-error.log.2017-10-20 exists!!!
+    at renameOrDelete (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/lib/rotator.js:63:17)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+
+pid: 8458
+hostname: tankerdeiMac.local
+
+2017-10-21 23:59:59,745 ERROR 8458 nodejs.Error: [egg-logrotator] rename /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/blog-backend-web.log, found exception: targetFile /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/blog-backend-web.log.2017-10-20 exists!!!
+    at renameOrDelete (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/lib/rotator.js:63:17)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+
+pid: 8458
+hostname: tankerdeiMac.local
+
+2017-10-21 23:59:59,745 ERROR 8458 nodejs.Error: [egg-logrotator] rename /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-web.log, found exception: targetFile /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-web.log.2017-10-20 exists!!!
+    at renameOrDelete (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/lib/rotator.js:63:17)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+
+pid: 8458
+hostname: tankerdeiMac.local
+
+2017-10-21 23:59:59,747 ERROR 8458 nodejs.Error: [egg-logrotator] rename /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-agent.log, found exception: targetFile /Users/tanker/Documents/Tanker/blog/blog-backend/logs/blog-backend/egg-agent.log.2017-10-20 exists!!!
+    at renameOrDelete (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/egg-logrotator/app/lib/rotator.js:63:17)
+    at next (native)
+    at onFulfilled (/Users/tanker/Documents/Tanker/blog/blog-backend/node_modules/co/index.js:65:19)
+
+pid: 8458
+hostname: tankerdeiMac.local
+
